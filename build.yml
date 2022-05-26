@@ -2,7 +2,9 @@
 - hosts: webservers
   become: true
   gather_facts: true
-  
+  vars:
+      war_file_path: /var/lib/jenkins/workspace/maven_nexus/webapp/target/webapp.war
+          
   tasks:
     - name: upload file to Nexus
       uri:
