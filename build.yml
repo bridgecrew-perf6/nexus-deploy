@@ -11,8 +11,8 @@
        method: "PUT"
        status_code: 201, 200, 500
        src: "{{ war_file_path }}"
-       url_username: {{ user }}
-       url_password: {{ passwd }}
+       url_username: "{{ user }}"
+       url_password: "{{ passwd }}"
 ...
 
 
