@@ -3,7 +3,6 @@
   become: true
   gather_facts: true
   vars:
-      war_file_path: {{ war_file_path }}
       user: admin
           
   tasks:
