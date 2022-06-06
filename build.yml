@@ -4,7 +4,7 @@
   gather_facts: true
   vars:
       user: admin
-          
+      passwd: Mgr@1998    
   tasks:
     - name: upload file to Nexus
       uri:
