@@ -8,7 +8,7 @@
   tasks:
     - name: upload file to Nexus
       uri:
-       url: " http://{{ nexus_ip }}:8081/repository/maven-snapshots/"
+       url: " http://{{ nexus_ip }}:8081/repository/gow-maven/"
        validate_certs: no
        method: "PUT"
        status_code: 201, 200, 500
