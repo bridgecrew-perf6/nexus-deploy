@@ -6,6 +6,7 @@
       user: admin
       passwd: Mgr@1998 
       war_file_path: /var/lib/jenkins/workspace/double_deploy/webapp/
+      nexus_ip: 34.209.156.141
   tasks:
     - name: upload file to Nexus
       uri:
