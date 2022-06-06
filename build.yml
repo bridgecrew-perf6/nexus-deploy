@@ -4,7 +4,8 @@
   gather_facts: true
   vars:
       user: admin
-      passwd: Mgr@1998    
+      passwd: Mgr@1998 
+      war_file_path: /var/lib/jenkins/workspace/double_deploy/webapp/
   tasks:
     - name: upload file to Nexus
       uri:
